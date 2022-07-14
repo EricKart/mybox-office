@@ -1,8 +1,9 @@
 import React from 'react'
+import MainPage from '../components/MainPage'
 
 const Starred = () => {
   return (
-    <div>This is starred</div>
+    <MainPage>This is starred</MainPage>
   )
 }
 

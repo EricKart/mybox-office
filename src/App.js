@@ -6,7 +6,7 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 import Starred from './Pages/Starred';
 
 
@@ -16,9 +16,6 @@ function App() {
   return (
 
       <Router>
-        <div>
-          <Nav/>
-        </div>
         <div className="container">
         <Routes>
            <Route path="/" element={<Home/>} />
